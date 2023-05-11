@@ -1,5 +1,8 @@
 #!/bin/bash
 
+#This file creates users and respective password from a list of Names provided in a file ref: names.txt
+#Thsi script needs the file name to be provided during execution
+
 while getopts 'a:d:' OPTION; 
   do
   case "$OPTION" in
